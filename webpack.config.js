@@ -11,7 +11,8 @@ module.exports = {
         use: [
           extract_css.loader,
           'css-loader',
-          'sass-loader',
+          'postcss-loader',
+          'sass-loader'
         ],
       },
       {
